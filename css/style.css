@@ -101,8 +101,13 @@ body{
 .main-nav li a:hover {
 	color: #fbfbfb;
 }
+
+
+
 /*========= MAIN =========*/
 /*========= Banner =========*/
+
+
 .banner{
 	height: 612px;
 	background-image: url(../images/banner.jpg);
@@ -200,6 +205,26 @@ h2::after{
 .text{
 	font-weight: 300;
 	margin-bottom: 60px;
+}
+
+
+.views::before, .comments::before{
+	content: '\f06e';
+	font-family: 'Font Awesome 5 free';
+	font-size: 40px;
+}
+
+.card-title{
+	display: block;
+	padding: 0.5px 0.5px;
+	color: indigo;
+	text-transform: uppercase;
+	background: #bde4d0;
+	font-size: 14px;
+	text-decoration: none;
+	width: 120px;
+	box-sizing: border-box;
+	margin: 0 auto;
 }
 
 /*========= Footer =========*/
