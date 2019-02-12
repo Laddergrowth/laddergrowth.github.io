@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    background-color: #ffffff
+
+}
+
+
+
+.btext{
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    line-height: 0.4em;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.btn{
+    color: rgb(235, 217, 217);
+    text-decoration: none;
+    border: rgb(149, 11, 11) 1px solid;
+    padding: 10px 15px;
+    border-radius: 8px;
+    line-height: 4em;
+}
+
+.btn:hover{
+    color: #a71120;
+    border: rgb(134, 11, 11) 1px solid;
+}
+
+#particles-js{
+    background-image: url('image1.jpg');
+    height: 100vh;
+   
+    background-image: linear-gradient(to right top, #6bd1bb, #62d1b0, #5ed1a2, #5fd092, #64cf81, #4bc889, #30c090, #00b896, #00a4ad, #008cbc, #0071bb, #3351a4);
+    
+}
+
+
+#iframe {
+    width: 560px;
+    height: 315px;
+    margin-left: 380px;
+    margin-top: 80px;
+    box-align: right;
+    position: middle;
+    background-color: rgb(7, 4, 4);
+    opacity : 70%;
+}
+
